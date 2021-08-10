@@ -4,6 +4,9 @@
 package jdbc.dao;
 
 import org.junit.Test;
+
+import application.App;
+
 import static org.junit.Assert.*;
 
 public class AppTest {
