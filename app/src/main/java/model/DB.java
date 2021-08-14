@@ -41,7 +41,7 @@ public class DB {
 
     private static Properties loadProperties() {
 
-        try (FileInputStream fs = new FileInputStream("db.properties")) {
+        try (FileInputStream fs = new FileInputStream("D:/Cursos e treinamentos/Java - Udemy 2021/workspace/jdbc-dao/app/db.properties")) {
 
             Properties props = new Properties();
             props.load(fs);
